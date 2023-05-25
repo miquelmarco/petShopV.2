@@ -199,9 +199,88 @@ footer {
     margin-right: 1rem !important;
 }
 
-@media only screen and (max-width:870px) {
+@media only screen and (max-width:475px) {
     #barContainer {
-        display: flex;
         flex-direction: column;
+        justify-content: center !important;
+        margin: 0rem !important;
+    }
+    #searchInput{
+        
+        justify-content: center !important;
+        text-align: center;
+        margin-bottom: 1rem !important;
+    } 
+    #searchTxt{
+        width: 70% !important;
+        justify-content: center !important;
+        text-align: center;
+        margin-top: 1rem !important;
+    }
+    #cardcontainer{
+        margin: 0rem !important;
+    }
+
+    .card{
+        width: 25rem !important;
+        margin: none !important;
+    }
+    #detailContainer {
+        flex-direction: column;
+        border-radius: 1rem;
+    }
+    .imgDetail{
+        width: 18rem !important;
+        height: 18rem !important;
+    }
+    .txtdetail {
+        width: 18rem !important;
+    }
+}
+
+@media only screen and (min-width:475px) and (max-width: 1250px) {
+
+    #barContainer {
+        flex-direction: column;
+        justify-content: center !important;
+        margin: 0rem !important;
+    }
+    #searchInput{
+        width: 100% !important;
+        justify-content: center !important;
+        text-align: center;
+        margin-bottom: 1rem !important;
+    } 
+    #searchTxt{
+        width: 70% !important;
+        justify-content: center !important;
+        text-align: center;
+        margin-top: 1rem !important;
+    }
+    #detailContainer {
+        flex-direction: column;
+        border-radius: 1rem;
+    }
+    .imgDetail{
+        width: 18rem !important;
+        height: 18rem !important;
+    }
+    .txtdetail {
+        width: 18rem !important;
+    }
+}
+
+@media only screen and (min-width:1250px) and (max-width: 1580px) {
+    #detailContainer {
+        border-radius: 3rem;
+        align-items: center;
+    }
+    .imgDetail{
+        width: 18rem !important;
+        height: 18rem !important;
+        margin-left: 1rem !important;
+    }
+    .txtdetail {
+        width: 18rem !important;
     }
 }
